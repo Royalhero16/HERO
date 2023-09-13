@@ -103,6 +103,14 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="🧸 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="🍁 𝐎𝐖𝐍𝐄𝐑 🍁", url=f"t.me/iamCuteHero"
+            )
+        ],
     ]
     return buttons
 
@@ -121,6 +129,14 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="🧸 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="🍁 𝐎𝐖𝐍𝐄𝐑 🍁", url=f"t.me/iamCuteHero"
+            )
+        ],
     ]
     return buttons
 
@@ -152,5 +168,13 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="🧸 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="🍁 𝐎𝐖𝐍𝐄𝐑 🍁", url=f"t.me/iamCuteHero"
+            )
+        ],
     ]
     return buttons
